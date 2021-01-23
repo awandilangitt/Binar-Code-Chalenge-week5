@@ -1,5 +1,6 @@
 const usersController = require("./usersController");
 const tasksController = require("./tasksController");
+const selesai = require("./selesai");
 
 class Controller {
   users() {
@@ -7,6 +8,9 @@ class Controller {
   }
   tasks() {
     return tasksController;
+  }
+  selesai() {
+    return selesai;
   }
 }
 

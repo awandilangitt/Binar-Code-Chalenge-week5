@@ -28,4 +28,7 @@ router.put("/tasks", controller.tasks().put);
 // Delete users
 router.delete("/tasks", controller.tasks().delete);
 
+//coba
+router.get("/users/selesai", controller.selesai().get);
+
 module.exports = router;

@@ -27,4 +27,6 @@ class UsersController {
   }
 }
 
+
 module.exports = Object.freeze(new UsersController());
+
